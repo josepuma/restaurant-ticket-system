@@ -9,6 +9,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.3.3"
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "nuxt": "^3.3.3",
+    "vite-plugin-pug": "^0.3.2"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.3"
   }
 }
